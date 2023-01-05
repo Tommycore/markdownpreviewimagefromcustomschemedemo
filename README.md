@@ -16,4 +16,5 @@ This is a minimal demo to showcase my problem of viewing images in markdown prev
 ```
 - Open markdown preview (should be Ctrl+Shift+D to open and Ctrl+Alt+Right to view side by side)
 the result should be something like this:
-![Screenshot](screenshot.jpg)
+
+![Screenshot](https://github.com/Tommycore/markdownpreviewimagefromcustomschemedemo/blob/main/media/screenshot.jpg?raw=true)
