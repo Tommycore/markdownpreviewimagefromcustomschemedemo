@@ -34,6 +34,8 @@ export class AssetFileSystemProvider implements vscode.FileSystemProvider {
   }
 
   readFile(uri: vscode.Uri): Uint8Array | Thenable<Uint8Array> {
+    vscode.window.showInformationMessage(`Attempting to load ${uri.path}`);
+    
     if(Object.keys(this._files).includes(uri.path)) {
       return vscode.workspace.fs.readFile(this._files[uri.path]);
     }
